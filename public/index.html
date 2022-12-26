@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<title>HTML Basics</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AnyPharmacy</title>
 		<link rel="stylesheet" href="styles/style.css" />
 	</head>
-
-	<body>
-		<div id="wrapper">
-			<div id="main">
-				<div id="container">
-					<div id="content" role="main">
-						<!-- TODO: Content goes here -->
-						<img src="static/pictures/logo.png" alt="epam" />
-					</div>
+	<div class="wrapper">
+		<header>
+			<div class="line_header">
+				<div class="logo">
+					<svg>
+						<use
+							xlink:href="/static/pictures/sprite.svg#logo"
+						></use>
+					</svg>
+				</div>
+				<div class="menu">
+					<ul>
+						<li>
+							<a href=""
+								><button class="button_header_menu">
+									Головна
+								</button></a
+							>
+						</li>
+						<li>
+							<a href=""
+								><button class="button_header_menu">
+									Доставка і оплата
+								</button></a
+							>
+						</li>
+						<li>
+							<a href=""
+								><button class="button_header_menu">
+									Про нас
+								</button></a
+							>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
-	</body>
+		</header>
+		<body style="overflow-x: hidden"></body>
+		<footer>
+			<div class="line_footer"></div>
+		</footer>
+	</div>
 </html>
