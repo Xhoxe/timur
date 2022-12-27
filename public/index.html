@@ -10,43 +10,80 @@
 	<div class="wrapper">
 		<header>
 			<div class="line_header">
+				<a class="translate" id="en">
+					<img
+						src="static/pictures/uk.jpg"
+						alt="en"
+						width="30px"
+						height="20px"
+				/></a>
 				<div class="logo">
-					<svg>
-						<use
-							xlink:href="/static/pictures/sprite.svg#logo"
-						></use>
-					</svg>
+					<a href="index.html">
+						<svg>
+							<use
+								xlink:href="/static/pictures/sprite.svg#logo"
+							></use>
+						</svg>
+					</a>
 				</div>
+
 				<div class="menu">
 					<ul>
 						<li>
 							<a href=""
-								><button class="button_header_menu">
-									Головна
+								><button
+									class="button_header_menu lang"
+									key="feedback"
+								>
+									Зворотній зв'язок
 								</button></a
 							>
 						</li>
 						<li>
 							<a href=""
-								><button class="button_header_menu">
+								><button
+									class="button_header_menu lang"
+									key="delivery"
+								>
 									Доставка і оплата
 								</button></a
 							>
 						</li>
 						<li>
 							<a href=""
-								><button class="button_header_menu">
+								><button
+									class="button_header_menu lang"
+									key="about"
+								>
 									Про нас
 								</button></a
 							>
 						</li>
 					</ul>
 				</div>
+				<div class="dop_menu">
+					<ul>
+						<li>
+							<a href="index.html">
+								<svg class="size-login">
+									<use
+										xlink:href="/static/pictures/sprite.svg#login"
+									></use>
+								</svg>
+							</a>
+						</li>
+
+						<li></li>
+					</ul>
+				</div>
 			</div>
 		</header>
-		<body style="overflow-x: hidden"></body>
+		<body style="overflow-x: hidden">
+			<div class="content"></div>
+		</body>
 		<footer>
 			<div class="line_footer"></div>
 		</footer>
 	</div>
+	<script src="scripts/jquery-3.6.0.min.js"></script>
 </html>
