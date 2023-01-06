@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"
+		/>
+
+		<title>Machrep</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		/>
+		<link rel="stylesheet" href="styles/log.css" />
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="/assets/image/ico.png"
+		/>
+		<title>Slide Navbar</title>
+		<link rel="stylesheet" type="text/css" href="slide navbar style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="main">
+			<input type="checkbox" id="chk" aria-hidden="true" />
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Зареєструватися</label>
+					<input
+						type="text"
+						name="txt"
+						placeholder="Введіть Ім'я"
+						required=""
+					/>
+					<input
+						type="email"
+						name="email"
+						placeholder="Введіть пошту"
+						required=""
+						title="@gmail.com"
+					/>
+					<input
+						type="password"
+						id="password-input"
+						placeholder="Введіть пароль"
+						name="password"
+						required=""
+						minlength="4"
+						maxlength="8"
+						size="8"
+						pattern="[0-9a-zA-Z]{4,8}"
+						title="Виконуйте умови запису 0-9 а-z A-Z"
+					/>
+					<button href="index.html" onclick="history.back(-1)">
+						Зареєструватися
+					</button>
+					<!--<a class="login_main_page" href="/cart.html"></a>-->
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Логін</label>
+					<input
+						type="text"
+						name="txt"
+						placeholder="Введіть Ім'я"
+						required=""
+					/>
+					<input
+						type="password"
+						id="password-input"
+						placeholder="Введіть пароль"
+						name="password"
+						required=""
+						minlength="4"
+						maxlength="8"
+						size="8"
+						pattern="[0-9a-zA-Z]{4,8}"
+						title="Виконуйте умови запису 0-9 а-z A-Z"
+					/>
+					<button onclick="history.back(-1)">Увійти</button>
+					<!--<a class="login_main_page" href="/cart.html"></a>-->
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
