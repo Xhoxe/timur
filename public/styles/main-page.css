@@ -14,6 +14,7 @@ header {
 	margin: 0% 0% 0% 8%;
 	border: 2px #f4f4f4 solid;
 	background-color: #f4f4f4;
+	border-bottom: 2px #0489b1 solid;
 }
 .content {
 	width: 100%;
@@ -34,6 +35,7 @@ header {
 .main_content {
 	width: 85%;
 	height: 100%;
+	border-left: 2px #0489b1 solid;
 }
 .button_header_menu {
 	width: 80%;
@@ -94,7 +96,7 @@ li {
 }
 
 .topUl .ddList {
-	width: 220px;
+	width: 214px;
 }
 
 .topUl .ddList > .menu_content_a {
@@ -271,7 +273,7 @@ a.slide_btn {
 }
 /* Усі товари-------------------------------------------------------------*/
 #grid {
-	margin-top: -200px;
+	margin-top: -245px;
 }
 .row {
 	margin-left: 33px;
@@ -285,6 +287,7 @@ a.slide_btn {
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
+	padding-bottom: 50px;
 	box-sizing: border-box;
 }
 .outerfit {
@@ -392,8 +395,8 @@ footer {
 
 input:focus {
 	outline: none !important;
-	border-color: #37eb5e !important;
-	box-shadow: 0 0 10px #30eb39 !important;
+	border-color: #0489b1 !important;
+	box-shadow: 0 0 10px #0489b1 !important;
 }
 
 .ffot {
@@ -423,7 +426,7 @@ input:focus {
 .back-to-top {
 	position: fixed;
 	/*display: none;*/
-	background: #18d26e;
+	background: #0489b1;
 	color: #fff;
 	width: 44px;
 	height: 44px;
@@ -479,7 +482,7 @@ input:focus {
 
 .line:before {
 	content: "";
-	background: #18d26e;
+	background: #0489b1;
 	width: 20%;
 	height: 2px;
 	position: absolute;
@@ -491,7 +494,7 @@ a {
 }
 
 a:hover {
-	color: #16a559;
+	color: #0489b1;
 }
 
 .pdd {
@@ -502,12 +505,11 @@ i.fan {
 	display: inline-block;
 	border-radius: 60px;
 	box-shadow: 0px 0px 2px #888;
-	/* background-color: green; */
 	padding: 12px;
 	color: whitesmoke;
 }
 
 i.fan:hover {
-	background-color: rgb(4, 187, 4);
+	background-color: #0489b1;
 }
 /*footer*/

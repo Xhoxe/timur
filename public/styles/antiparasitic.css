@@ -14,6 +14,7 @@ header {
 	margin: 0% 0% 0% 8%;
 	border: 2px #f4f4f4 solid;
 	background-color: #f4f4f4;
+	border-bottom: 2px #0489b1 solid;
 }
 .content {
 	width: 100%;
@@ -34,6 +35,7 @@ header {
 .main_content {
 	width: 85%;
 	height: 100%;
+	border-left: 2px #0489b1 solid;
 }
 .button_header_menu {
 	width: 80%;
@@ -94,7 +96,7 @@ li {
 }
 
 .topUl .ddList {
-	width: 220px;
+	width: 214px;
 }
 
 .topUl .ddList > .menu_content_a {
@@ -143,6 +145,13 @@ li {
 		rgba(71, 175, 207, 1) 100%
 	);
 }
+.block_category_name_margin {
+	width: 300px;
+	height: 300px;
+}
+.block_category_name {
+	margin: 100px 0px 0px 200px;
+}
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -166,7 +175,7 @@ li {
 }
 /* Усі товари-------------------------------------------------------------*/
 #grid {
-	margin-top: 300px;
+	margin-top: 10px;
 }
 .row {
 	margin-left: 33px;
@@ -180,6 +189,7 @@ li {
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
+	padding-bottom: 50px;
 	box-sizing: border-box;
 }
 .outerfit {
@@ -256,14 +266,13 @@ li {
 		width: 100%;
 	}
 }
-/*DELETE THIS */
+
 .main_class_content_img {
 	display: block;
 	height: 142px;
 	width: 300px;
 	/*background*/
 }
-/*DELETE THIS */
 
 /*footer*/
 footer {
@@ -318,7 +327,7 @@ input:focus {
 .back-to-top {
 	position: fixed;
 	/*display: none;*/
-	background: #18d26e;
+	background: #0489b1;
 	color: #fff;
 	width: 44px;
 	height: 44px;
@@ -374,7 +383,7 @@ input:focus {
 
 .line:before {
 	content: "";
-	background: #18d26e;
+	background: #0489b1;
 	width: 20%;
 	height: 2px;
 	position: absolute;
@@ -386,7 +395,7 @@ a {
 }
 
 a:hover {
-	color: #16a559;
+	color: #0489b1;
 }
 
 .pdd {
@@ -397,12 +406,11 @@ i.fan {
 	display: inline-block;
 	border-radius: 60px;
 	box-shadow: 0px 0px 2px #888;
-	/* background-color: green; */
 	padding: 12px;
 	color: whitesmoke;
 }
 
 i.fan:hover {
-	background-color: rgb(4, 187, 4);
+	background-color: #0489b1;
 }
 /*footer*/
